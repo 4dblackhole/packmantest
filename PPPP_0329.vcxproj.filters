@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{560009a9-3456-49f2-9139-7f627e276172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\singletonBase">
+      <UniqueIdentifier>{c863904a-4cb1-4ef3-9402-1d819936edf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{6546db11-e286-4a7d-b459-d18a1bb146d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{d79ff904-af7f-4c10-af16-a269dd83ab9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\backBuffer">
+      <UniqueIdentifier>{2318e85b-c6b8-43c4-be62-fbc7a57ee248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\utils">
+      <UniqueIdentifier>{397ffe2c-94f0-4b3b-bcc8-a6164a3b0201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{9826c364-1bb2-43f7-8d6f-8c84a2b53809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\bullets">
+      <UniqueIdentifier>{4a08ebac-3330-46c8-8820-181f51422c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{e4e692b1-6f9d-4b15-a929-747feac43694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{be344286-f0fe-4355-a126-b7ba9034106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{ab3daa44-f957-491c-bea4-302722be67f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{60b727b8-0782-4e63-817e-1249911595e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{9c21f4f8-7829-4788-80bd-5041b0b27066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{e789f178-2ec8-471f-97fd-17f6773a9856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\loading">
+      <UniqueIdentifier>{b64fd550-7b84-429e-8cfe-7ab7052a05d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{8fdc47db-e93e-44bc-9250-13a5fa329b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\database">
+      <UniqueIdentifier>{40b9e8f7-7e1b-424a-b493-c43a4afc3e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\tankScene">
+      <UniqueIdentifier>{fe47b1fd-6d4a-4d3b-aea5-6cf17814efbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\A%2aScene">
+      <UniqueIdentifier>{4ce346c7-421f-4cda-bbb6-81e07793500b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="backBuffer.h">
+      <Filter>2DGameFramework\backBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="utiles.h">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>mainGame\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameScene.h">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>2DGameFramework\database</Filter>
+    </ClInclude>
+    <ClInclude Include="tileNode.h">
+      <Filter>mainGame\tankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="tankMap.h">
+      <Filter>mainGame\tankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="tank.h">
+      <Filter>mainGame\tankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="tankScene.h">
+      <Filter>mainGame\tankScene</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarTest.h">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarScene.h">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="backBuffer.cpp">
+      <Filter>2DGameFramework\backBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="utiles.cpp">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>2DGameFramework\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>mainGame\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameScene.cpp">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>2DGameFramework\loading</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>2DGameFramework\database</Filter>
+    </ClCompile>
+    <ClCompile Include="tankMap.cpp">
+      <Filter>mainGame\tankScene</Filter>
+    </ClCompile>
+    <ClCompile Include="tank.cpp">
+      <Filter>mainGame\tankScene</Filter>
+    </ClCompile>
+    <ClCompile Include="tankScene.cpp">
+      <Filter>mainGame\tankScene</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarTest.cpp">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarScene.cpp">
+      <Filter>mainGame\A%2aScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PPPP_0329.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PPPP_0329.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
