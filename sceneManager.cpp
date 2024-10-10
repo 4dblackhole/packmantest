@@ -59,10 +59,10 @@ gameNode * sceneManager::addScene(string sceneName, gameNode * scene)
 //씬 변경
 HRESULT sceneManager::changeScene(string sceneName)
 {
-	mapSceneIter find = _mSceneList.find(sceneName);
+	const mapSceneIter& find = _mSceneList.find(sceneName);
 
 	//이터레이터가 맵의 끝까지 갔다 == 찾고자하는게 없다 실패 반환
-	if (find == _mSceneList.end()) return E_FAIL;
+	if (find == _mSceneList.cend()) return E_FAIL;
 
 	//만약 바꾸려는 씬이 현재 씬이면 그냥 둔다
 	if (find->second == _currentScene) return S_OK;

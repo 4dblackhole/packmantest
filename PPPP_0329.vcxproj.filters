@@ -70,6 +70,9 @@
     <Filter Include="mainGame\A%2aScene">
       <UniqueIdentifier>{4ce346c7-421f-4cda-bbb6-81e07793500b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="mainGame\GameObject">
+      <UniqueIdentifier>{2b467ce7-5299-485f-9384-351551a86768}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -180,6 +183,9 @@
     <ClInclude Include="tile.h">
       <Filter>mainGame\A%2aScene</Filter>
     </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>mainGame\GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -274,6 +280,9 @@
     </ClCompile>
     <ClCompile Include="aStarScene.cpp">
       <Filter>mainGame\A%2aScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>mainGame\GameObject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -48,7 +48,7 @@ public:
 		_brush = CreateSolidBrush(_color);
 	}
 
-	RECT getRect() { return _rc; }
+	RECT& getRect() { return _rc; }
 
 	//편리를 위한 접근자 & 설정자를 만들어보자
 	void setCenter(POINT center) { _center = center; }
